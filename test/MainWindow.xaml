@@ -1,0 +1,34 @@
+﻿<Window x:Class="test.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:test"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="450">
+    <Grid x:Name="Lum">
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Button x:Name="console" Grid.Row="3" Content="Console" Click="Button_Click" Background="Azure" Grid.ColumnSpan="2"/>
+        <Button x:Name="zz" Grid.Row="0" Grid.Column="0" Width="80" Height="80" Background="LightGray" Content="" Click="Button_Click" />
+        <Button x:Name="zo" Grid.Row="0" Grid.Column="1" Width="80" Height="80" Background="LightGray" Content="" Click="Button_Click" />
+        <Button x:Name="zt" Grid.Row="0" Grid.Column="2" Width="80" Height="80" Background="LightGray" Content="" Click="Button_Click" />
+        <Button x:Name="oz" Grid.Row="1" Grid.Column="0" Width="80" Height="80" Background="LightGray" Content="" Click="Button_Click" />
+        <Button x:Name="oo" Grid.Row="1" Grid.Column="1" Width="80" Height="80" Background="LightGray" Content="" Click="Button_Click" />
+        <Button x:Name="ot" Grid.Row="1" Grid.Column="2" Width="80" Height="80" Background="LightGray" Content="" Click="Button_Click" />
+        <Button x:Name="tz" Grid.Row="2" Grid.Column="0" Width="80" Height="80" Background="LightGray" Content="" Click="Button_Click" />
+        <Button x:Name="to" Grid.Row="2" Grid.Column="1" Width="80" Height="80" Background="LightGray" Content="" Click="Button_Click" />
+        <Button x:Name="tt" Grid.Row="2" Grid.Column="2" Width="80" Height="80" Background="LightGray" Content="" Click="Button_Click" />
+        <Button x:Name="exit" Grid.Row="3" Grid.Column="2" Width="120" Height="40" Background="Azure" Content="Tap to exit" Click="last" />
+        
+    </Grid>
+</Window>
